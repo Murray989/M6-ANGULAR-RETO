@@ -1,0 +1,92 @@
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .logo-container {
+    margin-bottom: 20px;
+  }
+  
+  .date-time {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    color: #666;
+  }
+  
+  h1 {
+    color: #333;
+    margin: 30px 0;
+  }
+  
+  .transactions, .consults {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .consults {
+    grid-template-columns: repeat(2, 1fr);
+    width: 66%;
+    margin: 0 auto 30px auto;
+  }
+  
+  button {
+    background-color: #ffee00;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #f0e000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
+
+  .saldo {
+    background-color: #ffee00;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border: 1px solid #e6d600;
+  }
+  
+  .saldo h3 {
+    color: #333;
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6d600;
+  }
+  
+  .saldo p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .saldo strong {
+    font-weight: bold;
+    margin-right: 5px;
+  }

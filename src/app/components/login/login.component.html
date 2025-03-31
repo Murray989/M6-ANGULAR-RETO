@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Sucursal Virtual - App Bancaria</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-section">
+            <div class="login-header">
+                Inicio de sesión
+            </div>
+            <div class="login-form">
+                <div class="form-group">
+                    <label>Ingresa con tu correo electronico registrado</label>
+                        <form [formGroup]="loginForm" (ngSubmit)="submit()">
+                          <fieldset>
+                            <input type="email" name="email" placeholder="Enter your email" formControlName="email">        
+                          </fieldset>
+                          <button class="continue-btn" type="submit">Continue</button>                      
+                          <!-- {{state.userEmail$ | async}} -->
+                        </form>
+                </div>               
+                
+                <div class="links">
+                    <a href="#">¿Olvidaste tu usuario?</a>
+                    <a href="#">¿Problemas para conectarte?</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        Sucursal Telefónica App Bancaria: Bogotá (57) 60 1 343 00 00 - Medellín (57) 60 4 510 90 00 - Cali (57) 60 2 554 05 05 - Barranquilla (57) 60 5 361 88 88 - Cartagena (57) 60 5 693 44 00
+        <br>
+        Bucaramanga (57) 60 7 697 25 25 - Pereira (57) 60 6 340 12 13 - Resto del país 018000 912345
+        <br>
+        Copyright © 2025 App Bancaria S.A.
+    </div>
+</body>
+
+
+

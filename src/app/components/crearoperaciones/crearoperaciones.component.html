@@ -1,0 +1,12 @@
+<form [formGroup]="formulario" (ngSubmit)="enviarFormulario()">
+    <label for="cuenta">cuenta:</label>
+    <input id="cuenta" type="text" formControlName="cuenta">
+     
+        <label for="codigoTransaccion">codigoTransaccion:</label>
+    <input id="codigoTransaccion" type="text" formControlName="codigoTransaccion">
+     
+        <label for="monto">monto:</label>
+    <input id="monto" type="text" formControlName="monto">
+     
+        <button type="submit">Enviar</button>
+    </form>
